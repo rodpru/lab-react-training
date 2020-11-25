@@ -27,7 +27,7 @@ class ClickablePicture extends React.Component {
         <img src={this.state.img} onClick={this.changePic} />
       </div>
     );
-  }
+    }
 }
 
 export default ClickablePicture;
